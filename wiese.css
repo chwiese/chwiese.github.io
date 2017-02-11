@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+A:link {
+	color: white;
+}
+
+A:visited {
+	color: white;
+}
+
+A:active {
+	color: white;
+}
+
+A:hover {
+	color: white;
+}
+
+#left A:link {
+	color: black;
+}
+
+#left A:visited {
+	color: black;
+}
+
+#left A:active {
+	color: black;
+}
+
+#left A:hover {
+	color: black;
+}
+
+#left {
+	height:100%;
+	width:50%;
+	float:left;
+	color:black;
+	background-color:white;
+	text-align:right;
+	vertical-align:bottom;
+}
+
+#right {
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	height:100%;
+	width:50%;
+	float:right;
+	color:white;
+	background-color:black;
+	vertical-align:top;
+}
+
+#chr {
+	position: absolute;
+	top: 45%;
+	right: 50%;
+	border-top-width:2px;
+	border-top-color:black;
+	border-top-style:solid;
+	border-left-width:2px;
+	border-left-color:black;
+	border-left-style:solid;
+	padding-left:2px;
+	border-bottom-width:2px;
+	border-bottom-color:black;
+	border-bottom-style:solid;
+	padding-bottom:2px;
+}
+
+#wie {
+	position: absolute;
+	top: 45%;
+	border-top-width:2px;
+	border-top-color:white;
+	border-top-style:solid;
+	border-right-width:2px;
+	border-right-color:white;
+	border-right-style:solid;
+	padding-right:3px;
+	border-bottom-width:2px;
+	border-bottom-color:white;
+	border-bottom-style:solid;
+	padding-bottom:2px;
+}
+
+#con {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	padding: 0px;
+	margin: 0px;
+}
